@@ -44,7 +44,7 @@ export const Header = () => {
           style={{ background: "#fbe58a" }}
           expand="lg"
         >
-          <Container>
+          <Container className="navContainer">
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto">
@@ -129,6 +129,7 @@ export const Header = () => {
                 <Nav.Link className="mx-1" href="#donate">
                   <Button
                     className="subscribeBtn"
+                    id="subsc1"
                     variant="secondary"
                     size="sm"
                   >
@@ -139,11 +140,20 @@ export const Header = () => {
               </Nav>
             </Navbar.Collapse>
           </Container>
+          <Button
+            className="subscribeBtn"
+            id="subsc2"
+            variant="secondary"
+            size="sm"
+          >
+            <i className="fa fa-envelope mx-2"></i>
+            SUBSCRIBE TO OUR NEWSLETTER
+          </Button>
         </Navbar>
       </header>
 
       {/* Head Carousel starts here */}
-      <Carousel fade>
+      <Carousel interval={null} fade>
         <Carousel.Item>
           <img className="d-block w-100" src={slider1} alt="First slide" />
         </Carousel.Item>

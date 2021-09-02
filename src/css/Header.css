@@ -35,7 +35,6 @@ body {
 }
 
 .subscribeBtn {
-  width: auto;
   border-radius: 2px;
   font-weight: bold;
   background-color: #fbe58a;
@@ -44,6 +43,7 @@ body {
   padding: 5px 11px;
   font-size: 0.74rem;
   transition: all 0.4s ease-in-out;
+  margin-right: 0.8rem;
 }
 
 .subscribeBtn:hover {
@@ -51,8 +51,28 @@ body {
   color: white;
 }
 
+.navContainer {
+  width: 80%;
+}
+
+#subsc1 {
+  display: none;
+}
+
 @media screen and (max-width: 575px) {
   .subscribeBtn {
     width: auto;
+  }
+}
+
+@media screen and (max-width: 970px) {
+  .navContainer {
+    width: 100%;
+  }
+  #subsc1 {
+    display: block;
+  }
+  #subsc2 {
+    display: none;
   }
 }
