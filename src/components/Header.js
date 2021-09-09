@@ -126,11 +126,15 @@ export const Header = () => {
                   Contact
                 </Nav.Link>
 
-                <Nav.Link className="mx-1" href="#donate">
+                <Nav.Link className="mx-1" href="###">
                   <Button
                     className="subscribeBtn"
                     variant="secondary"
                     size="sm"
+                    type="button"
+                    data-bs-toggle="modal"
+                    data-bs-target="#myModal"
+                    
                   >
                     <i className="fa fa-envelope mx-2"></i>
                     SUBSCRIBE TO OUR NEWSLETTER

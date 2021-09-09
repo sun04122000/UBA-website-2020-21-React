@@ -218,18 +218,18 @@ export const Footer = () => {
                         id="link-tag"
                         href="https://www.facebook.com/winterschool.ubaiitr/"
                       >
-                        <strong>Winter-School</strong>
+                        <strong>Talk-Show</strong>
                       </a>
                     </ListGroup.Item>
                     <ListGroup.Item id="listgroup">
-                      UBA IITR conducted Winter School 2020 from January 17,
-                      2020 to January 19, 2020. Visit the link below to learn
-                      more.
+                      On the 75th Independence Day, Team UBA IIT Roorkee brings
+                      to you this one-of-its-kind talk by Mr Swapnil Tewari on
+                      the topic- 'O Yuva! - Unleash your superpower'.
                     </ListGroup.Item>
                     <ListGroup.Item id="listgroup">
                       <a
                         id="link-tag"
-                        href="https://www.facebook.com/700887566729461/posts/1849546685196871/?d=n"
+                        href="https://m.facebook.com/story.php?story_fbid=2044083149076556&id=700887566729461&sfnsn=wiwspwa"
                       >
                         <strong>Spandan</strong>
                       </a>
@@ -284,7 +284,7 @@ export const Footer = () => {
           className="w-100"
           style={{ backgroundColor: "black", marginLeft: "12px" }}
         >
-          <p class="text-center">
+          <p class="text-center" style={{ paddingTop: "8px" }}>
             Website Developed by:
             <a id="link-tag-1" href="https://www.linkedin.com/in/amanydv2112">
               Aman
