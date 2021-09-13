@@ -1,0 +1,13 @@
+::-webkit-scrollbar{
+  width: 10px;
+}
+::-webkit-scrollbar-track{
+  background: #2a2e34;
+}
+::-webkit-scrollbar-thumb{
+  background-image: linear-gradient(#f5b301,#ecc730);
+  border-radius: 15px;
+}
+.Heart{
+  color: #ecc730;
+}

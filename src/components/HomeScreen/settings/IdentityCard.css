@@ -1,0 +1,47 @@
+.donatores  {
+    text-align: center;
+  }
+ .avatar {
+    position: relative;
+    z-index: 3;
+    border: 2px solid #fff;
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.5);
+    background: #fff;
+    height: 135px;
+    width: 135px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+  }
+ .donor-details {
+    background: #fff;
+    padding-top: 80px;
+    position: relative;
+    z-index: 1;
+    margin-top: -70px;
+  }
+.donor-details span {
+    margin-top: 15px;
+    display: inline-block;
+    padding-bottom: 4px;
+    color: #232323;
+    border-bottom: 3px solid #e5e5e5;
+  }
+.donor-details span strong {
+    color: #ecc731;
+  }
+.donor-details {
+    padding: 20px 30px;
+    margin: 0px;
+    padding-bottom: 30px;
+  }
+  /* .donatores li.become-donor hr {
+    margin: 20px auto;
+  }
+  .donatores li.become-donor .btn {
+    padding: 10px 50px;
+  }
+  .donatores li.become-donor h4 {
+    font-weight: normal;
+    font-size: 20px;
+  } */

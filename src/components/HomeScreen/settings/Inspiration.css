@@ -1,0 +1,96 @@
+.testi {
+    background: url(./images/testi-bg.jpg) repeat;
+  }
+  /* .testi:before {
+    height: 40px;
+    background: #fff;
+    content: "";
+    position: absolute;
+    width: 100%;
+    top: 0px;
+  } */
+  .testi h3 {
+    margin-top: 130px;
+  }
+  /* .with-bg-drk:before {
+    height: 100%;
+    background: #434343;
+    content: "";
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    left: 30%;
+    z-index: 1;
+    margin-top: 40px;
+  } */
+  .with-bg-drk {
+    padding-left: 0px;
+    background-color: #434343;
+    
+  }
+  .with-bg-drk img {
+    position: relative;
+    z-index: 2;
+  }
+  .testi-slides {
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 80px;
+    overflow: hidden;
+  }
+  .testi-slides .item-slide {
+    margin-left: 70px;
+    position: relative;
+    overflow: hidden;
+  }
+  .testi .owl-dots {
+    margin-left: 70px;
+  }
+  .testi .owl-dot {
+    display: inline-block;
+    margin-left: 0px;
+    margin-right: 10px;
+    margin-top: 20px;
+  }
+  .testi .owl-dot span {
+    height: 10px;
+    width: 10px;
+    border: 2px solid;
+    border-color: transparent;
+    border-radius: 50%;
+    display: inline-block;
+    background: #a1a1a1;
+  }
+  .testi .owl-dot.active span {
+    background: none;
+    border-color: #333333;
+  }
+  .testi-slides .item-slide p {
+    font-size: 16px;
+    font-style: italic;
+    line-height: 26px;
+  }
+  /* .testi-slides:before {
+    background: url(./images/quates.png) top left no-repeat;
+    padding-left: 50px;
+    position: absolute;
+    content: "";
+    top: 0px;
+    left: 0px;
+    width: 70px;
+    height: 70px;
+  } */
+  .testi-slides .item-slide h6 {
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-top: 20px;
+    color: #777777;
+    font-family: "Lato";
+  }
+  .testi-slides .item-slide h6 strong {
+    color: #232323;
+    margin-right: 10px;
+    font-size: 14px;
+  }
