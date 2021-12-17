@@ -8,21 +8,8 @@ import {
   Row,
   Image,
   Button,
-  Carousel,
 } from "react-bootstrap";
 import logo from "../images/logo.png";
-import slider1 from "../images/1.png";
-import slider2 from "../images/2.png";
-import slider3 from "../images/3.jpeg";
-import slider4 from "../images/4.jpg";
-import slider5 from "../images/5.jpg";
-import slider6 from "../images/6.jpg";
-import slider7 from "../images/7.jpeg";
-import slider8 from "../images/8.jpeg";
-import slider9 from "../images/9.jpeg";
-import slider10 from "../images/10.jpeg";
-import slider11 from "../images/11.jpeg";
-import slider12 from "../images/12.jpg";
 import "../css/Header.css";
 
 export const Header = () => {
@@ -48,7 +35,7 @@ export const Header = () => {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto">
-                <Nav.Link className="mx-3" href="#home">
+                <Nav.Link className="mx-3" href="/home">
                   Home
                 </Nav.Link>
                 <NavDropdown
@@ -113,9 +100,7 @@ export const Header = () => {
                     Faculty
                   </NavDropdown.Item>
                   <NavDropdown.Divider />
-                  <NavDropdown.Item href="#action/3.2">
-                    Students
-                  </NavDropdown.Item>
+                  <NavDropdown.Item href="/students">Students</NavDropdown.Item>
                 </NavDropdown>
 
                 <Nav.Link className="mx-3" href="#gallery">
@@ -151,46 +136,6 @@ export const Header = () => {
           </Button>
         </Navbar>
       </header>
-
-      {/* Head Carousel starts here */}
-      <Carousel interval={null} fade>
-        <Carousel.Item>
-          <img className="d-block w-100" src={slider1} alt="First slide" />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img className="d-block w-100" src={slider2} alt="Second slide" />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img className="d-block w-100" src={slider3} alt="Third slide" />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img className="d-block w-100" src={slider4} alt="Fourth slide" />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img className="d-block w-100" src={slider5} alt="Fifth slide" />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img className="d-block w-100" src={slider6} alt="Sixth slide" />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img className="d-block w-100" src={slider7} alt="Seventh slide" />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img className="d-block w-100" src={slider8} alt="Eighth slide" />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img className="d-block w-100" src={slider9} alt="Ninth slide" />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img className="d-block w-100" src={slider10} alt="Tenth slide" />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img className="d-block w-100" src={slider11} alt="Eleventh slide" />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img className="d-block w-100" src={slider12} alt="Twelfth slide" />
-        </Carousel.Item>
-      </Carousel>
     </>
   );
 };

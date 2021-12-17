@@ -1,0 +1,38 @@
+body {
+    background: #f7f8f9;
+  }
+  .studCard {
+    min-height: 312px;
+    border: none;
+    background: white;
+  }
+  
+  .studCard .card-title {
+    color: black !important;
+  }
+  
+  .studCard img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+  }
+  
+  .cardBody {
+    background: linear-gradient(#f7f8f9 30%, white 0%);
+  }
+  
+  .headingStudent1 {
+    color: #d9750ed9;
+    font-weight: bold;
+    background: #f7f8f9;
+    /* border-bottom: solid 2px #ecc730 ; */
+  }
+  
+  .cardText {
+    color: black;
+  }
+  .profileWord {
+    color: #d9750ed9;
+    text-decoration: none;
+  }
+  
