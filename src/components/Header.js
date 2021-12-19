@@ -1,5 +1,9 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { Link } from "react-router-dom";
+
+
+
 import {
   Navbar,
   Nav,
@@ -109,7 +113,7 @@ export const Header = () => {
                   id="basic-nav-dropdown"
                   renderMenuOnMount={true}
                 >
-                  <NavDropdown.Item href="#action/3.1">
+                  <NavDropdown.Item href="/faculty">
                     Faculty
                   </NavDropdown.Item>
                   <NavDropdown.Divider />
@@ -135,7 +139,6 @@ export const Header = () => {
                     type="button"
                     data-bs-toggle="modal"
                     data-bs-target="#myModal"
-                    
                   >
                     <i className="fa fa-envelope mx-2"></i>
                     SUBSCRIBE TO OUR NEWSLETTER
