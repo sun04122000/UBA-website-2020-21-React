@@ -1,0 +1,187 @@
+.bg-overlay {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../images/2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: #fff;
+  height: 333px;
+  padding-top: 50px;
+}
+
+.bg-no-overlay {
+  background: url("../images/2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: #fff;
+  height: 333px;
+  padding-top: 50px;
+}
+
+.how-can-help {
+  background: #fff;
+  padding: 100px 0;
+  padding-bottom: 0px;
+}
+.how-can-help {
+  position: relative;
+}
+.how-can-help:before {
+  background: #f7f8f9;
+  content: "";
+  position: absolute;
+  width: 673px;
+  height: 486px;
+  left: -305px;
+  right: 0px;
+  margin: 0 auto;
+  top: 130px;
+}
+.how-can-help ul {
+  margin-bottom: 0px;
+}
+.how-can-help .big-text {
+  font-size: 55px;
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: bold;
+  line-height: 40px;
+}
+.how-can-help hr {
+  margin-bottom: 50px;
+}
+.how-can-help .btn {
+  padding-right: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  height: 40px;
+  line-height: 40px;
+}
+.how-can-help .btn i {
+  background: #303030;
+  color: #fff;
+  float: right;
+  display: inline-block;
+  margin-left: 30px;
+  height: 40px;
+  width: 40px;
+  font-size: 20px;
+  margin-top: -1px;
+  margin-right: -1px;
+  line-height: 40px;
+}
+.how-can-help .big-text small {
+  width: 100%;
+  font-weight: normal;
+  display: inline-block;
+  font-size: 40px;
+}
+.how-can-help .help-fea:before {
+  content: "";
+}
+.how-can-help .help-fea li {
+  padding: 15px 0;
+  display: inline-block;
+  width: 100%;
+  font-size: 16px;
+}
+.how-can-help .help-fea li img {
+  margin-right: 10px;
+}
+.help-fea {
+  padding-top: 150px;
+  padding-left: 50px;
+}
+.help-fea:before {
+  background: rgba(255, 205, 0, 0.1);
+  content: "";
+  position: absolute;
+  width: 575px;
+  height: 352px;
+  left: 20px;
+  right: 0px;
+  margin: 0 auto;
+  top: 120px;
+}
+
+.what-we {
+  padding-bottom: 100px;
+}
+.what-we:before {
+  opacity: 0;
+}
+
+.what-we .with-map p {
+  z-index: 1;
+}
+.what-we hr {
+  margin-bottom: 20px;
+}
+.what-we h6 {
+  font-family: "Lato";
+  font-size: 16px;
+  color: #000;
+}
+.fea-service {
+  margin-top: 40px;
+}
+.fea-service h4 {
+  font-weight: normal;
+  margin-bottom: 10px;
+  color: #000000;
+  margin-top: 20px;
+}
+.fea-service li a {
+  font-style: italic;
+  color: #eecd46;
+}
+.what-we .program {
+  background: rgba(236, 199, 49, 0.8);
+  padding: 60px 40px;
+  text-align: center;
+  position: relative;
+  z-index: 99;
+}
+.what-we .program .inner {
+  position: relative;
+  z-index: 99;
+}
+.what-we .program h3 {
+  margin-top: 0px;
+  font-weight: bold;
+  line-height: 40px;
+  color: #fff;
+}
+.what-we .program h3 span {
+  color: #232323;
+}
+.what-we .program .btn {
+  background: #fff;
+  font-size: 11px;
+  width: auto;
+  padding: 0px 20px;
+  margin-top: 30px;
+}
+.what-we .program .btn:hover {
+  background: #303030;
+}
+.what-we .program .btn-1 {
+  background: #303030;
+  color: #fff;
+  margin-left: 10px;
+}
+.what-we .program .btn-1:hover {
+  color: #303030;
+  background: #fff;
+}
+.what-we .program:before {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+  right: -10px;
+  top: -10px;
+  background: rgba(236, 199, 49, 0.5);
+}
