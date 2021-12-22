@@ -1,0 +1,51 @@
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.don-counter {
+  background: url(../images/Initiatives/Beladi/counter-bg.jpg) center center
+    no-repeat;
+  background-size: cover;
+}
+.don-counter .overlay {
+  padding: 130px 0;
+  background: rgba(54, 54, 54, 0.9);
+}
+#counters li i {
+  font-size: 40px;
+  color: #ecc731;
+  margin-right: 20px;
+  margin-top: 10px;
+  border-bottom: 1px solid #ecc731;
+  padding-bottom: 20px;
+}
+#counters li span {
+  font-size: 35px;
+  font-weight: bold;
+  /* font-family: "Lora", serif; */
+  color: #ecc731;
+}
+#counters li p {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+li {
+  list-style: none;
+}
+
+.tittle h2 {
+  color: #222222;
+}
+.tittle h2 span {
+  font-weight: bold;
+}
+.tittle p {
+  color: #777777;
+}
+
+.video-blog {
+  max-width: 100%;
+}

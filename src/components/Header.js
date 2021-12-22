@@ -67,7 +67,7 @@ export const Header = () => {
                   id="basic-nav-dropdown"
                   renderMenuOnMount={true}
                 >
-                  <NavDropdown.Item href="#action/3.1">Beladi</NavDropdown.Item>
+                  <NavDropdown.Item href="/beladi">Beladi</NavDropdown.Item>
                   <NavDropdown.Divider />
                   <NavDropdown.Item href="#action/3.2">
                     Chharba
